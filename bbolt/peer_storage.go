@@ -3,7 +3,7 @@ package bbolt
 import (
 	"bytes"
 	"context"
-	"encoding/json"
+	"encoding/xml"
 
 	"github.com/go-faster/errors"
 	"go.etcd.io/bbolt"
@@ -52,7 +52,7 @@ func (p *bboltIterator) Next(ctx context.Context) bool {
 		}
 	}
 
-	if err := json.Unmarshal(v, &p.value); err != nil {
+	if err := xml.Unmarshal(v, &p.value); err != nil {
 		p.lastErr = errors.Errorf("unmarshal: %w", err)
 		return false
 	}
@@ -96,7 +96,7 @@ func (s PeerStorage) add(associated []string, value storage.Peer) (err error) {
 			return errors.Errorf("create bucket: %w", err)
 		}
 
-		data, err := json.Marshal(value)
+		data, err := xml.Marshal(value)
 		if err != nil {
 			return errors.Errorf("marshal: %w", err)
 		}
@@ -135,7 +135,7 @@ func (s PeerStorage) Find(ctx context.Context, key storage.PeerKey) (p storage.P
 			return storage.ErrPeerNotFound
 		}
 
-		if err := json.Unmarshal(data, &p); err != nil {
+		if err := xml.Unmarshal(data, &p); err != nil {
 			return errors.Errorf("unmarshal: %w", err)
 		}
 		return nil
@@ -166,7 +166,7 @@ func (s PeerStorage) Resolve(ctx context.Context, key string) (p storage.Peer, r
 			return storage.ErrPeerNotFound
 		}
 
-		if err := json.Unmarshal(data, &p); err != nil {
+		if err := xml.Unmarshal(data, &p); err != nil {
 			return errors.Errorf("unmarshal: %w", err)
 		}
 		return nil
