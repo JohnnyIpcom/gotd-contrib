@@ -17,10 +17,9 @@ type Peer struct {
 	Version   int
 	Key       dialogs.DialogKey
 	CreatedAt int64
-	User      *tg.User               `json:",omitempty"`
-	Chat      *tg.Chat               `json:",omitempty"`
-	Channel   *tg.Channel            `json:",omitempty"`
-	Metadata  map[string]interface{} `json:",omitempty"`
+	User      *tg.User    `json:",omitempty"`
+	Chat      *tg.Chat    `json:",omitempty"`
+	Channel   *tg.Channel `json:",omitempty"`
 }
 
 func addIfNotEmpty(r []string, k string) []string {
