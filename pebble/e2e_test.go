@@ -6,8 +6,8 @@ import (
 	pebbledb "github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/vfs"
 
-	"github.com/gotd/contrib/internal/tests"
-	"github.com/gotd/contrib/pebble"
+	"github.com/johnnyipcom/gotd-contrib/internal/tests"
+	"github.com/johnnyipcom/gotd-contrib/pebble"
 )
 
 func TestE2E(t *testing.T) {

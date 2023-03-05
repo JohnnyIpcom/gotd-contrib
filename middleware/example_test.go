@@ -9,8 +9,8 @@ import (
 	"github.com/gotd/td/telegram"
 	"github.com/gotd/td/tg"
 
-	"github.com/gotd/contrib/middleware/floodwait"
-	"github.com/gotd/contrib/middleware/ratelimit"
+	"github.com/johnnyipcom/gotd-contrib/middleware/floodwait"
+	"github.com/johnnyipcom/gotd-contrib/middleware/ratelimit"
 )
 
 func Example() {

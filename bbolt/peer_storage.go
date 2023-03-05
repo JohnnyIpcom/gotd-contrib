@@ -8,7 +8,7 @@ import (
 	"github.com/go-faster/errors"
 	"go.etcd.io/bbolt"
 
-	"github.com/gotd/contrib/storage"
+	"github.com/johnnyipcom/gotd-contrib/storage"
 )
 
 var _ storage.PeerStorage = PeerStorage{}

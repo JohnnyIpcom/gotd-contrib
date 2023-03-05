@@ -1,4 +1,4 @@
-module github.com/gotd/contrib/_tools
+module github.com/johnnyipcom/gotd-contrib/_tools
 
 go 1.16
 

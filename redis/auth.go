@@ -3,7 +3,7 @@ package redis
 import (
 	"github.com/go-redis/redis/v8"
 
-	"github.com/gotd/contrib/auth/kv"
+	"github.com/johnnyipcom/gotd-contrib/auth/kv"
 )
 
 // Credentials stores user credentials to Redis.

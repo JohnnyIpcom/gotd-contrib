@@ -11,7 +11,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/contrib/http_range"
+	"github.com/johnnyipcom/gotd-contrib/http_range"
 )
 
 // StreamerAt implements streaming with offset.

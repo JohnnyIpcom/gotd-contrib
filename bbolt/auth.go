@@ -3,7 +3,7 @@ package bbolt
 import (
 	"go.etcd.io/bbolt"
 
-	"github.com/gotd/contrib/auth/kv"
+	"github.com/johnnyipcom/gotd-contrib/auth/kv"
 )
 
 // Credentials stores user credentials to bbolt.

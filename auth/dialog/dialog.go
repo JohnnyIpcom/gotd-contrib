@@ -11,7 +11,7 @@ import (
 	tgauth "github.com/gotd/td/telegram/auth"
 	"github.com/gotd/td/tg"
 
-	"github.com/gotd/contrib/auth/localization"
+	"github.com/johnnyipcom/gotd-contrib/auth/localization"
 )
 
 var _ tgauth.UserAuthenticator = Dialog{}

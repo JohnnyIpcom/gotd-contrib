@@ -13,8 +13,8 @@ import (
 	"github.com/gotd/td/telegram/query"
 	"github.com/gotd/td/tg"
 
-	"github.com/gotd/contrib/pebble"
-	"github.com/gotd/contrib/storage"
+	"github.com/johnnyipcom/gotd-contrib/pebble"
+	"github.com/johnnyipcom/gotd-contrib/storage"
 )
 
 func peerCollector(ctx context.Context) error {

@@ -11,7 +11,7 @@ import (
 
 	"github.com/gotd/td/telegram"
 
-	"github.com/gotd/contrib/bbolt"
+	"github.com/johnnyipcom/gotd-contrib/bbolt"
 )
 
 func bboltStorage(ctx context.Context) error {

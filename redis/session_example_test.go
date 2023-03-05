@@ -11,7 +11,7 @@ import (
 
 	"github.com/gotd/td/telegram"
 
-	"github.com/gotd/contrib/redis"
+	"github.com/johnnyipcom/gotd-contrib/redis"
 )
 
 func redisStorage(ctx context.Context) error {

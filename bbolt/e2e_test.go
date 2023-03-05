@@ -6,8 +6,8 @@ import (
 
 	bboltdb "go.etcd.io/bbolt"
 
-	"github.com/gotd/contrib/bbolt"
-	"github.com/gotd/contrib/internal/tests"
+	"github.com/johnnyipcom/gotd-contrib/bbolt"
+	"github.com/johnnyipcom/gotd-contrib/internal/tests"
 )
 
 func TestE2E(t *testing.T) {

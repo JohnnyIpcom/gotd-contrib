@@ -8,8 +8,8 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 
-	"github.com/gotd/contrib/internal/tests"
-	"github.com/gotd/contrib/s3"
+	"github.com/johnnyipcom/gotd-contrib/internal/tests"
+	"github.com/johnnyipcom/gotd-contrib/s3"
 )
 
 func TestE2E(t *testing.T) {

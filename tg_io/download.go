@@ -9,7 +9,7 @@ import (
 
 	"github.com/gotd/td/tg"
 
-	"github.com/gotd/contrib/partio"
+	"github.com/johnnyipcom/gotd-contrib/partio"
 )
 
 // Downloader implements streamable file downloads of Telegram files.

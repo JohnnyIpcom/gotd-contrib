@@ -9,7 +9,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/multierr"
 
-	"github.com/gotd/contrib/storage"
+	"github.com/johnnyipcom/gotd-contrib/storage"
 )
 
 var _ storage.PeerStorage = PeerStorage{}

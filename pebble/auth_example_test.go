@@ -13,9 +13,9 @@ import (
 
 	"github.com/gotd/td/telegram"
 
-	"github.com/gotd/contrib/auth"
-	"github.com/gotd/contrib/auth/terminal"
-	"github.com/gotd/contrib/pebble"
+	"github.com/johnnyipcom/gotd-contrib/auth"
+	"github.com/johnnyipcom/gotd-contrib/auth/terminal"
+	"github.com/johnnyipcom/gotd-contrib/pebble"
 )
 
 func pebbleAuth(ctx context.Context) error {

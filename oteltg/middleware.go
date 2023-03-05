@@ -93,7 +93,7 @@ func (m Middleware) attributes(input bin.Encoder) []attribute.KeyValue {
 
 // New initializes and returns new prometheus middleware.
 func New(meterProvider metric.MeterProvider, tracerProvider trace.TracerProvider) (*Middleware, error) {
-	const name = "github.com/gotd/contrib/oteltg"
+	const name = "github.com/johnnyipcom/gotd-contrib/oteltg"
 	meter := meterProvider.Meter(name)
 	m := &Middleware{
 		tracer: tracerProvider.Tracer(name),

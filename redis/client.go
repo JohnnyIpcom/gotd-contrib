@@ -6,7 +6,7 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-redis/redis/v8"
 
-	"github.com/gotd/contrib/auth/kv"
+	"github.com/johnnyipcom/gotd-contrib/auth/kv"
 )
 
 type redisClient struct {

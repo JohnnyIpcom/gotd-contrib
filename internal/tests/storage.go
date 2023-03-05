@@ -10,8 +10,8 @@ import (
 	"github.com/gotd/td/session"
 	"github.com/gotd/td/tg"
 
-	"github.com/gotd/contrib/auth"
-	"github.com/gotd/contrib/storage"
+	"github.com/johnnyipcom/gotd-contrib/auth"
+	"github.com/johnnyipcom/gotd-contrib/storage"
 )
 
 // Credentials is a KV credential storage abstraction.

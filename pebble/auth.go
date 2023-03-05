@@ -3,7 +3,7 @@ package pebble
 import (
 	"github.com/cockroachdb/pebble"
 
-	"github.com/gotd/contrib/auth/kv"
+	"github.com/johnnyipcom/gotd-contrib/auth/kv"
 )
 
 // Credentials stores user credentials to Pebble.

@@ -1,4 +1,4 @@
-module github.com/gotd/contrib
+module github.com/johnnyipcom/gotd-contrib
 
 go 1.18
 

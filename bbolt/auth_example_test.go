@@ -12,9 +12,9 @@ import (
 	"github.com/gotd/td/telegram"
 	tgauth "github.com/gotd/td/telegram/auth"
 
-	"github.com/gotd/contrib/auth"
-	"github.com/gotd/contrib/auth/terminal"
-	"github.com/gotd/contrib/bbolt"
+	"github.com/johnnyipcom/gotd-contrib/auth"
+	"github.com/johnnyipcom/gotd-contrib/auth/terminal"
+	"github.com/johnnyipcom/gotd-contrib/bbolt"
 )
 
 func bboltAuth(ctx context.Context) error {

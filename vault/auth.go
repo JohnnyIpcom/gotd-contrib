@@ -3,7 +3,7 @@ package vault
 import (
 	"github.com/hashicorp/vault/api"
 
-	"github.com/gotd/contrib/auth/kv"
+	"github.com/johnnyipcom/gotd-contrib/auth/kv"
 )
 
 // Credentials stores user credentials to Vault.
